@@ -1,0 +1,62 @@
+body {
+    background-color: aquamarine;
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+    transition: background-color 400ms linear;
+}
+.container {
+    background-color: #232323;
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 1.666%;
+    border-radius: 20px;
+    transition: background-color 400ms linear;
+}
+#stripe {
+    height: 25px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#message {
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 43%;
+}
+.botones {
+    background-color: aquamarine;   
+    height: 30px;
+    margin: 1%;
+    border-radius: 5px;
+    border: none;
+}
+.selected {
+    font-weight: bold;
+    background-color: skyblue;
+    border: 2px solid blue;
+}
+#reset {
+    float: left;
+}
+#dificil {
+    float: right;
+}
+#facil {
+    float: right;
+}
+#arriba {
+    border-radius: 20px 20px 0px 0px;
+}
+#abajo {
+    border-radius: 0px 0px 20px 20px;
+}
